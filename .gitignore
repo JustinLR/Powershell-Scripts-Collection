@@ -1,0 +1,40 @@
+# PowerShell-specific files
+*.ps1~
+*.psd1~
+*.psm1~
+*.ps1xml~
+*.pssc~
+*.psrc~
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Git-specific files
+*.orig
+*.rej
+
+# PowerShell Script Execution Logs
+*.ps1.log
+logs/
+
+# Exclude any other temporary or runtime artifacts
+*.tmp
+*.cache
+
+# Explicitly include important files
+!.gitattributes
+!README.md
